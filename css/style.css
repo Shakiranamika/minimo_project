@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,700|Raleway&display=swap');
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+h1{
+	font-size: 35px;
+	font-weight: 700;
+	color: #6f6f6f;
+	margin: 30px 0;}
+h2{
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-weight: 100;
+	color: #696868;
+	font-size: 20px;
+	margin-top: 70PX;
+}
+p{
+	color: #828080;
+	text-align: justify;
+	margin-bottom: 50px;
+}
+
+nav{
+	margin: 15px 0;
+}
+.nav-link{
+	color: #4a4a4ad6!important;
+	text-transform: uppercase;
+	margin-right: 35px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 100;
+}
+.travel{
+	margin-right: 0;
+}
+.nav-link:hover{
+	box-shadow: 2px 2px 7px #c5c2c2a1;
+	color: #777777db !important;
+}
+
+/*************banner-section****************/
+.banner-section{}
+.banner-img{}
+.banner-section img{
+	width: 1100px;
+}
+/*****************about-section****************/
+.about-section{
+    margin-bottom: 50px;
+}
+.about{
+    margin: 0 100px;
+}
+.about-section a{
+    color: #444242;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+}
+.about-section a:hover{
+    color: #6b6a6ae8;
+}
+
+****************article-section*****************/
+.article-section{}
+.article{
+    margin: 0 100px;
+}
+.article h2{
+ margin-top: 30px;
+}
+.row{}
+.col-xl-6{}
+.photo{
+ }
+.img{
+ overflow: hidden;
+}
+.img img{
+	width: 450px;
+    max-width: 100%;
+    transition: 0.5s;
+}
+.img img:hover{
+ 	transform: scale(1.1);
+ 
+}
+/***************footer*****************/
+footer{
+	background-color: #cecbcb3b;
+    padding: 30px 0;
+    font-family: 'Oswald', sans-serif;
+}
+.conditions{}
+.social-icons{}
+
+footer ul li{
+    margin-right: 20px;
+}
+footer ul li a{
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #444242;
+    font-weight: 100;
+}
+footer ul li a:hover{
+    color: #6b6a6ae8;
+    text-decoration: none;
+}
+span{
+	color: #444242;
+    font-weight: 100;
+}
+span:hover{
+	color: #6b6a6ae8;
+}
